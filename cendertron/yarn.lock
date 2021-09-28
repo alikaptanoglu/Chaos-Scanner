@@ -370,13 +370,13 @@ chrome-launcher@^0.10.7:
     mkdirp "0.5.1"
     rimraf "^2.6.1"
 
-chrome-remote-interface@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.npm.taobao.org/chrome-remote-interface/download/chrome-remote-interface-0.27.2.tgz#e5605605f092b7ef8575d95304e004039c9d0ab9"
-  integrity sha1-5WBWBfCSt++FddlTBOAEA5ydCrk=
+chrome-remote-interface@^0.31.0:
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.31.0.tgz#0ba5549047cbbeaddac9f898dce37721170d2a21"
+  integrity sha512-DrD4ZACKAFT3lVldKVDRlYrI9bmZSk7kYcf+OKwFpBM9fZyCPvVKb+yGnmXBkHv7/BEkW8ouu+EHRugAOJ3pPg==
   dependencies:
     commander "2.11.x"
-    ws "^6.1.0"
+    ws "^7.2.0"
 
 clone@2.x:
   version "2.1.2"
@@ -1510,6 +1510,11 @@ ws@^6.1.0:
   integrity sha1-RC/fCkftZPWbal2P8TD0dI7VJPs=
   dependencies:
     async-limiter "~1.0.0"
+
+ws@^7.2.0:
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
+  integrity sha512-BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==
 
 yauzl@2.4.1:
   version "2.4.1"
