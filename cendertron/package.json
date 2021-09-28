@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "chrome-launcher": "^0.10.7",
-    "chrome-remote-interface": "^0.27.2",
+    "chrome-remote-interface": "^0.31.0",
     "fs-extra": "^8.1.0",
     "generic-pool": "^3.7.1",
     "ioredis": "^4.11.2",
