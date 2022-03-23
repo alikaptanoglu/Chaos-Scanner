@@ -26,7 +26,7 @@
     "test-cache": "npm run start-emulator && $(gcloud beta emulators datastore env-init) && export GCLOUD_PROJECT='emulator-project' && ava build/test/datastore-cache-test.js"
   },
   "dependencies": {
-    "chrome-launcher": "^0.10.7",
+    "chrome-launcher": "^0.13.1",
     "chrome-remote-interface": "^0.27.2",
     "fs-extra": "^8.1.0",
     "generic-pool": "^3.7.1",
